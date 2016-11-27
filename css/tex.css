@@ -1,0 +1,112 @@
+@media (max-width: 426px){
+	h1{
+		font-size: 1.5em;
+		line-height: 2.5em;
+	}
+	.pattern{
+		display: none;
+	}
+	.startpage{
+		height: 50vh;
+	}
+	.startpage .content {
+		width: 200px;
+		height: 200px;
+	}	
+	.startpage .content .text{
+		width: 200px;
+		padding-top:100px;
+
+	}	
+	a{
+		color: white;
+		font-size: 
+	}
+
+	.navbar{
+		display: none;
+	}
+	.navmedia{
+		display: block;
+		position: fixed;
+		top:0;
+		z-index: 99999;
+	}
+	.navmedia .navcontent{
+		width: 300px;
+	}
+	.aboutus {
+		width: 100%;
+	}
+	.aboutus h2{
+		margin: auto;
+		margin-top: 10px;
+
+	}
+	.aboutus .column:first-of-type,.aboutus .column:nth-of-type(5){
+		margin-left: 0;
+	}
+
+	.aboutus .column{
+		width: 100vw;
+		margin-left: 0;
+	}
+	.menu ,.menu .menumargin{
+		width: 100vw;
+	}
+	.grid li{
+		width: 80vw;
+		margin-left: 7vw;
+	}
+
+
+	
+	.dumpling,.dumpling .content{
+		width: 80vw;
+		height: 250px;
+		padding-top: 10px;
+	}
+	.dumpling h2{
+		margin-top: 0px;
+	}
+	.dumpling li img{
+		width: 60vw;
+	}
+
+	/***********************************************************以下還沒改*****/
+	.contact,.contact .content, .contact .content .form,input,textarea{
+		box-sizing: border-box;
+		width:260px;
+		font-size: 0.9em;
+
+	}
+	.contact .content .contacttext{
+	  	padding-left:0px;
+	  	margin-left: 0px;
+	  	width:260px;
+	  	text-align:center;
+	  	margin-top:20px;
+	  	font-size: 0.8em;
+	}
+}
+
+@media (min-width: 427px) and (max-width: 767px){
+	
+}
+
+@media (min-width: 768px) and (max-width: 1240px){
+	.pattern ul li{
+		display: inline-block;
+		padding:0 3vw;
+	}
+	.aboutus .column,.aboutus .column:nth-of-type(5){
+		margin-left: 4%;
+		width: 24%;
+	
+	}
+	.aboutus .column:first-of-type,.aboutus .column:nth-of-type(4),.aboutus .column:nth-of-type(7)  {
+    	margin-left: 10%;
+	}
+
+
+}
